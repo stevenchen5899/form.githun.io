@@ -18,14 +18,14 @@
         }
 
         .container {
-            width: 100%; /* 設置容器寬度為100% */
+            width: 100vw; /* 設置容器寬度為視口寬度 */
             margin: 0 auto;
-            padding: 20px;
+            padding: 20px 0; /* 移除左右填充，確保與螢幕同寬 */
             text-align: center;
         }
 
         .image-container img {
-            width: 100%;
+            width: 100vw; /* 設置圖片寬度為視口寬度 */
             height: auto;
         }
 
@@ -36,6 +36,7 @@
 
         .form-container {
             margin: 20px 0;
+            width: 100vw; /* 設置表單寬度為視口寬度 */
         }
 
         .form-container iframe {
@@ -59,7 +60,7 @@
     <div class="container">
         <!-- 圖片 -->
         <div class="image-container">
-            <img src="https://img2.imgtp.com/2024/05/25/nbXRG2ps.png" alt="示例圖片">
+            <img src="https://img2.imgtp.com/2024/05/25/YAqGltUX.png" alt="示例圖片">
         </div>
         
         <!-- 嵌入Google表單 -->
