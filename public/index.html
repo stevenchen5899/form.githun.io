@@ -39,29 +39,9 @@
         }
 
         .form-container iframe {
-            width: 100%;
+            width: 100vw; /* 使用視口寬度讓它自適應 */
             height: 60vh; /* 使用百分比高度讓它自適應 */
             border: none;
-        }
-
-        .button-container {
-            margin: 20px 0;
-        }
-
-        .call-button {
-            display: inline-block;
-            width: 100%;
-            padding: 15px 0;
-            font-size: 18px;
-            color: #fff;
-            background-color: #e74c3c;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .call-button:hover {
-            background-color: #c0392b;
         }
 
         @media (max-width: 600px) {
@@ -80,12 +60,6 @@
         <!-- 圖片 -->
         <div class="image-container">
             <img src="https://img2.imgtp.com/2024/05/25/pqcAMWzH.png" alt="示例圖片">
-        </div>
-
-        
-        <!-- 撥打電話按鈕 -->
-        <div class="button-container">
-            <a href="tel:0968333591" class="call-button">撥打電話</a>
         </div>
         
         <!-- 嵌入Google表單 -->
